@@ -1,12 +1,7 @@
 /**
  *
  *
-   https://BitCoinsKid.org
-   https://SaySoGeek.com
-   https://x.com/BitCoinsKid
-   https://t.me/BitCoinsKid
-
-   $BTCKID on base chain & solana
+   $WILLU be my valentine on base chain & solana
 
    Contract features:
    100,000,000 tokens
@@ -1144,7 +1139,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract BtcKid is ERC20, Ownable {
+contract WillU is ERC20, Ownable {
     using SafeMath for uint256;
 
     IUniswapV2Router02 public immutable uniswapV2Router;
@@ -1153,7 +1148,7 @@ contract BtcKid is ERC20, Ownable {
         address(0x000000000000000000000000000000000000dEaD);
 
     string public exchangeLink = "https://app.uniswap.or/swap";
-    string public websiteLink = "https://BitCoinsKid.org";
+    string public websiteLink = "https://drewroberts.org";
 
     address public communityWallet;
     address public marketingWallet;
@@ -1207,7 +1202,7 @@ contract BtcKid is ERC20, Ownable {
         address indexed oldWallet
     );
 
-    constructor() ERC20("BitCoins Kid", "BTCKID") {
+    constructor() ERC20("willu be my valentine?", "WILLU") {
         uniswapV2Router = IUniswapV2Router02(
             0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24
         );
