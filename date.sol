@@ -1231,7 +1231,7 @@ contract Date is ERC20, Ownable {
             marketingLopsidedSellTax +
             developerLopsidedSellTax;
 
-        communityWallet = address(0x9de74AB6116cF298C99C934292BA64b5E064d44d); // Community Funds
+        communityWallet = address(0xA75a40a5C2DfCE6EDc8d9cdb30AC62Bf226f5075); // Community Funds
         marketingWallet = address(0x1f9aA613658dDb40910BDcaD1E235Fc1d98e7F17); // Marketing Funds
         developerWallet = address(0xDEB333a3240eb2e1cA45D38654c26a8C1AAd0507); // Developer Funds
 
