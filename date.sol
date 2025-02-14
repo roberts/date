@@ -1,7 +1,9 @@
 /**
  *
  *
-   $WILLU be my valentine on base chain & solana
+   https://datecare.org
+
+   $DATE Care AI Agents on base chain
 
    Contract features:
    100,000,000 tokens
@@ -1139,7 +1141,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract WillU is ERC20, Ownable {
+contract Date is ERC20, Ownable {
     using SafeMath for uint256;
 
     IUniswapV2Router02 public immutable uniswapV2Router;
@@ -1148,7 +1150,7 @@ contract WillU is ERC20, Ownable {
         address(0x000000000000000000000000000000000000dEaD);
 
     string public exchangeLink = "https://app.uniswap.or/swap";
-    string public websiteLink = "https://drewroberts.org";
+    string public websiteLink = "https://datecare.org";
 
     address public communityWallet;
     address public marketingWallet;
@@ -1202,7 +1204,7 @@ contract WillU is ERC20, Ownable {
         address indexed oldWallet
     );
 
-    constructor() ERC20("willu be my valentine?", "WILLU") {
+    constructor() ERC20("Date Care AI Agents", "DATE") {
         uniswapV2Router = IUniswapV2Router02(
             0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24
         );
