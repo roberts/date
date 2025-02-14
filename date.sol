@@ -1204,7 +1204,7 @@ contract Date is ERC20, Ownable {
         address indexed oldWallet
     );
 
-    constructor() ERC20("Date Care AI Agents", "DATE") {
+    constructor() ERC20("$DATE Care AI Agents", "DATE") {
         uniswapV2Router = IUniswapV2Router02(
             0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24
         );
